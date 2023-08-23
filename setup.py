@@ -17,8 +17,7 @@ setup(
     description = '<short description for the tool>',
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    # TODO: Add source code repo
-    url = '<github url where the tool code will remain>',
+    url = 'https://github.com/brianou7/rabbitmqcli',
     py_modules = ['executor', 'app'],
     packages = find_packages(),
     install_requires = [requirements],
